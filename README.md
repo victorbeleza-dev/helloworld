@@ -1,7 +1,7 @@
-#Hello World
+# Hello World
 https://spring.io/guides/gs/spring-boot-docker/
 
-###Executar a aplicação localmente
+### Executar a aplicação localmente
 ```bash
 ./mvnw package -DskipTests=false && java -jar target/hello-0.0.1-SNAPSHOT.jar
 ```
@@ -23,7 +23,7 @@ docker run -p 8080:8080 springio/gs-spring-boot-docker
    1. Name: **"<"suas iniciais">"-tst-pipeline**
 4. Clicar em "**+Add > Git Repository > Import from Git**";
 5. Preencha os dados solicitados:
-   - **Git Repo URL:** *insira a url do projeto test-pipeline*;
+   - **Git Repo URL:** *insira a url do projeto tst-pipeline*;
    - **Git type:** *GitHub*
    - Clique em **Show advanced Git options**
      - **Git Reference:** *master*
@@ -44,7 +44,7 @@ docker run -p 8080:8080 springio/gs-spring-boot-docker
    - Clique no botão "Create";
    > 
    >- Aguarde o processo de construção (build) e escalação da aplicação (0 para 1). 
-   >- Acompanhe os logs da execução em: **Pipelines > "<suas iniciais">"-pipeline > Task status **;
+   >- Acompanhe os logs da execução em: **Pipelines > "<suas iniciais">"-pipeline > Task status**;
    >- Clique em **Topology** ;
    >- Clique em cima do circulo azul da sua aplicação **"<suas iniciais">"-pipeline**;
    >- Explore as opções apresentadas (Details, Resources, Observe);
