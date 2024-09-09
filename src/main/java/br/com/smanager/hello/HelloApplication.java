@@ -11,7 +11,7 @@ public class HelloApplication {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Ola Mundo Teste VB - teste 2!!!";
+		return "Ola Mundo Teste VB - teste 3!!!";
 	}
 
 	public static void main(String[] args) {
